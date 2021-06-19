@@ -1,7 +1,7 @@
 {
   "name": "hello-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creating a cli with Node.js",
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,14 @@
   "author": "Felicia Khan",
   "license": "ISC",
   "bin": {
-    "hello": "./bin/index.js"
-  }
+    "hello": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeliciaKh/hello-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FeliciaKh/hello-cli/issues"
+  },
+  "homepage": "https://github.com/FeliciaKh/hello-cli#readme"
 }
